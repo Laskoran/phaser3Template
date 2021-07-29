@@ -1,0 +1,54 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "requireConfigFile": false
+    },
+    "globals": {
+        "config": true,
+        "util": true,
+        "logmessages": true
+    },
+    "extends": [
+        "prettier",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "no-await-in-loop": "warn",
+        "no-param-reassign": "warn",
+        "no-restricted-syntax": "warn",
+        "no-unused-expressions": "warn",
+        "no-continue": "warn",
+        "no-loop-func": "warn",
+        "no-extend-native": "warn",
+        "no-template-curly-in-string": "warn",
+        "no-lone-blocks": "warn",
+        //"@typescript-eslint/member-ordering": ["warn"],
+        "@typescript-eslint/explicit-member-accessibility": [
+            "warn",
+            {
+                "accessibility": "explicit",
+                "overrides": {
+                    "accessors": "explicit",
+                    "constructors": "no-public",
+                    "methods": "explicit",
+                    "properties": "off",
+                    "parameterProperties": "explicit"
+                }
+            }
+        ],
+
+        "radix": ["error", "as-needed"],
+        "max-classes-per-file": ["error", 4],
+        "indent": ["error", 4, { "SwitchCase": 1 }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        //"alwaysStrict": true,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "pretty": true
+    },
+    "include": ["./src/**/*"]
+}

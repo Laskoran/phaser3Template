@@ -1,0 +1,10 @@
+# Vendors
+node_modules/
+
+# Build
+/npm-debug.log
+
+# distribution folder
+dist
+
+package-lock.json

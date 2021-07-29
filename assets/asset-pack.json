@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/tilesets/hex_tiles.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "hex_tiles"
+            },
+            {
+                "url": "assets/images/tilesets/square_tiles.png",
+                "frameConfig": {
+                    "frameWidth": 12,
+                    "frameHeight": 12,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "square_tiles"
+            },
+            {
+                "url": "assets/maps/testLevel_hex1.json",
+                "type": "tilemapTiledJSON",
+                "key": "testLevel_hex1"
+            },
+            {
+                "url": "assets/maps/testLevel_square1.json",
+                "type": "tilemapTiledJSON",
+                "key": "testLevel_square1"
+            },
+            {
+                "url": "assets/images/units/dino_walk.png",
+                "frameConfig": {
+                    "frameWidth": 450,
+                    "frameHeight": 450,
+                    "startFrame": 0,
+                    "endFrame": 9,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "dino_walk"
+            },
+            {
+                "url": "assets/images/units/tower.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": 0,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "tower"
+            }
+        ]
+    }
+}
